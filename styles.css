@@ -1,0 +1,113 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  /* text-shadow: 0px 0px 3px rgb(211, 208, 208); */
+  color: #1d3557;
+  line-height: 25px;
+}
+
+img {
+  width: 100px;
+}
+
+.hero {
+  color: #ffffff;
+  height: 400px;
+  background-image: url(images/taroudant.jpg);
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+}
+
+h3 {
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+#title {
+  background: #1d3557;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+  margin-top: 100px;
+}
+#intro {
+  background: #457b9d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+  width: 800px;
+  line-height: 35px;
+}
+
+#activities {
+  background-color: #f1faee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#images {
+  width: 950px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#activities img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#activity {
+  width: 250px;
+  font-weight: 500;
+}
+
+.avatar {
+  width: 150px;
+}
+
+.card {
+  width: 450px;
+  margin: 80px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: #a8dadc;
+  color: #2b2839;
+  border-bottom: 6px solid #1d3557;
+  border-radius: 10px;
+}
+.border-blue {
+  border: 1px dotted #1d3557;
+}
+
+.card img {
+  object-fit: cover;
+  width: 200px;
+  border-radius: 10px;
+  height: 300px;
+}
+.business-card-text{
+  width: 250px;
+  margin-left: 20px;
+}
