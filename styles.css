@@ -109,11 +109,32 @@ h3 {
 }
 .business-card-text {
   width: 250px;
-  margin-left: 20px;
 }
 
 #morocco {
   background: #1d3557;
   border-radius: 5px;
   padding: 5px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+  *{
+    font-size: 14px !important;
+  }
+  #intro {
+    width: unset;
+    opacity: 0.8;
+  }
+
+  #images {
+    width: unset;
+    flex-direction: column;
+  }
+
+  .card{
+    width: unset;
+    margin: 10px;
+  }
 }
